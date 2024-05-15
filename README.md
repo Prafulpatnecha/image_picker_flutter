@@ -18,7 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 
 https://github.com/Prafulpatnecha/image_picker_flutter/assets/144161200/fc5b5732-dc56-4241-ae54-94744b51f422
 
-<h2>➡️ </h2>
+<h2>➡️6.6 Image Picker in Flutter </h2>
 <hr>
 <p>
 <a href ="">
