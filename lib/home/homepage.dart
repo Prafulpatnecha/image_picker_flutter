@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
                   image: FileImage(fileImage!),
                   fit: BoxFit.cover
                 ),
-              ):BoxDecoration(
+              ):const BoxDecoration(
               color: Colors.blue,
               ),
               // child: CircleAvatar(
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                 }, icon: const Icon(Icons.image,color: Colors.black,size: 60,),),
               ],
             ),
-            SizedBox(height: 70,),
+            const SizedBox(height: 70,),
             Container(
               height: h/18,
               width: w/1.1,
@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
               color: Colors.blue,
                 borderRadius: BorderRadius.circular(10)
               ),
-              child: Center(child: Text('Upload Me',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),),
+              child: const Center(child: Text('Upload Me',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),),
             )
           ],
         ),
